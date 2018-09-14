@@ -683,7 +683,7 @@
 			</div>
 
 			<!-- Contact Form -->
-			<form method="post" id="formulario"  action="https://wt-617d919d78af26b9cf0c590f44211de8-0.sandbox.auth0-extend.com/jiboli-page-bot">
+			<form method="post" id="formulario" >
 
 				<div class="row"><!-- Row -->
 
@@ -719,7 +719,7 @@
 			
 					$.ajax({
 						type: frm.attr('method'),
-						url: frm.attr('action'),
+						url: "https://wt-617d919d78af26b9cf0c590f44211de8-0.sandbox.auth0-extend.com/jiboli-page-bot",
 						data: frm.serialize(),
 						success: function (data) {
 							console.log('Submission was successful.');
