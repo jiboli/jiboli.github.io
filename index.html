@@ -712,10 +712,9 @@
 
 			<script type="text/javascript">
 			var btn = document.getElementById("submit");
-			document.getElementById("submit").addEventListener("click", sucesso());
-					function sucesso() {
-					btn.value = "📨 Enviado com Sucesso";
-					}
+			document.getElementById("submit").addEventListener("click", btn.value = "📨 Enviado com Sucesso");
+					
+			
 				var frm = $('#formulario');
 			
 				frm.submit(function (e) {
