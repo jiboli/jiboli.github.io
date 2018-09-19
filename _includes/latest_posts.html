@@ -1,0 +1,40 @@
+<!--Card-->
+<section>
+<div class="  row">
+{% for post in site.posts limit:3 %}
+
+
+<div class="hidden-xs-sm col-md-4">
+<div class="card ">
+
+        <!--Card image-->
+        <div class="view">
+          <img src="{{post.featured}}" class="card-img-top" alt="photo">
+        </div>
+      
+        <!--Card content-->
+        <div class="card-body elegant-color">
+                <!--Title-->
+                <h4 class="card-title font-weight-bold mb-2">{{ post.title }}</h4>
+                <p class="card-subtitle">por {{post.author}}</p>
+                <p class="mt-1">
+                  <small>{{ post.date | date: "%d %B %Y" }} em
+                    <a href="#">{{post.categories}}</a>
+                  </small>
+                </p>
+                <!--Text-->
+                <p class="card-text">{{ post.content |truncatehtml | truncatewords: 60 }}</p>
+                <a href="{{ post.url }}" class="text-primary">Continuar lendo
+                  <i class="mi mi-ChevronRight"></i>
+                </a>
+              </div>
+        
+      
+      </div>
+      <!--/.Card-->
+    </div>
+  {% endfor %}
+</div></section>
+
+      
+        
