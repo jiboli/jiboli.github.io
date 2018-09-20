@@ -1516,24 +1516,18 @@ body.scrollable {
   -webkit-border-radius: 50%;
   border-radius: 50%; }
 
-  .bg {
-    position: relative;
-    background-image: url('img/back1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+  .blur { 
+    background: rgba(255, 255, 255, 0.60); 
+    backdrop-filter:saturate(180%) blur(20px); 
+    -webkit-backdrop-filter:saturate(180%) blur(20px);
   }
+  
+
 .card {
   border: 0;
   
-  background-color: rgba(255, 255, 255, 0.9);
+  /*background-color: rgba(255, 255, 255, 0.9);*/
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
-  -web
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
   -webkit-transition: -webkit-box-shadow .6s;
   transition: -webkit-box-shadow .6s;
