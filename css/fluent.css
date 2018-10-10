@@ -1521,11 +1521,28 @@ body.scrollable {
     backdrop-filter:saturate(180%) blur(20px); 
     -webkit-backdrop-filter:saturate(180%) blur(20px);
   }
-  
+
+  .blur-inverso { 
+    background: rgba(255, 255, 255, 0); 
+    
+  }
+  .blur-inverso:hover{
+   backdrop-filter:saturate(180%) blur(20px) ; 
+    -webkit-backdrop-filter:saturate(180%) blur(20px);
+  }
+
+  .card-hover{
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.0);
+  }
+  .card-hover:hover{
+    background-color: rgba(255, 255, 255, 1) !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 1) ;
+  }
 
 .card {
   border: 0;
-  
+
   /*background-color: rgba(255, 255, 255, 0.9);*/
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
