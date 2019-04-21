@@ -1,15 +1,15 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              João Henrique Riboli
+bio:                'Desenvolvedor, ilustrador, youtuber, criador de Bots do bem, físico e turista. (não confundir com fisiculturista)'
+description:        "Informações dessa página contém spoilers."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://taylantatli.github.io/Moon
-
+locale:             pt_BR
+url:                https://jiboli.github.io
+logopage:          '../assets/img/logo.jpg'
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,20 +37,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              joao.riboli@outlook.com
+twitter:            ojiboli
+facebook:           joaohenrique.riboli
+github-url:         jiboli
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          jiboli
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+steam:              jiboli
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
@@ -61,6 +61,8 @@ steam:              username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
+telegram:           jiboli
+medium:             jiboli
 
 # Gems
 gems:

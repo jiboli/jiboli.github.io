@@ -1,3 +1,4 @@
+
     <!-- JS -->
     <script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery.dlmenu.min.js"></script>
@@ -5,6 +6,8 @@
     <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
     <script src="{{ site.url }}/assets/js/scripts.js"></script>
+    <script src="{{ site.url }}/assets/js/index.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     {% if site.google.analytics %}
     <!-- Asynchronous Google Analytics snippet -->
     <script>
@@ -16,7 +19,18 @@
       ga('require', 'linkid', 'linkid.js');
       ga('send', 'pageview');
     </script>
+    <script>
+      document.onkeydown = function(evt) {
+      evt = evt || window.event;
+      if (evt.keyCode == 32) {
+          var box = document.getElementById("messageBox");
+          box.style.visibility="hidden";
+      }
+  };
+  </script>
+ 
     {% endif %}
     {% if page.comments != false %}
         {% include disqus_comments.html %}
     {% endif %}
+    
