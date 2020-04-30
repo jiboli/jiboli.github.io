@@ -1,78 +1,80 @@
-# Site
-title:              João Henrique Riboli
-bio:                'Desenvolvedor, ilustrador, youtuber, criador de Bots do bem, físico e turista. (não confundir com fisiculturista)'
-description:        "Informações dessa página contém spoilers."
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/logo.jpg'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             pt_BR
-url:                https://jiboli.github.io
-logopage:          '../assets/img/logo.jpg'
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
+# Site settings
+title: João Henrique Riboli
+description: >-
+  Informações a seguir contém spoiler.
+lang: pt-BR
+timezone: America/Sao_Paulo
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: 
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: João Henrique Riboli
+  bio: >-
+    Pesquisadorm, Desenvolvedor, ilustrador, youtuber, criador de Bots do bem, físico e turista. (não confundir com fisiculturista)
+  username: jiboli
+  email: joao.riboli@outlook.com
+  avatar: /assets/img/avatar.jpg
+
+# Url settings
+url: "https://jiboli.github.io"
+baseurl:
+permalink: /:title/
+google_analytics:
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Build settings
 sass:
-  sass_dir:         _sass
-  style:            compressed
+  style: compressed
 
-# Comments
-disqus_shortname:   
+include:
+  - _redirects
+  - .htaccess
 
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:              joao.riboli@outlook.com
-twitter:            ojiboli
-facebook:           joaohenrique.riboli
-github-url:         jiboli
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-instagram:          jiboli
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-steam:              jiboli
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-telegram:           jiboli
-medium:             jiboli
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
 
-# Gems
-gems:
-  - jekyll-mentions
+# Plugins
+plugins:
   - jekyll-feed
+  - jekyll-sass-converter
   - jekyll-sitemap
-  - jekyll-gist
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+  - jekyll-postfiles
