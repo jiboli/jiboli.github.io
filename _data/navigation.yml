@@ -1,0 +1,36 @@
+# Navigation configuration file
+##
+### to add or remove menu item
+### param "title" - Menu item name
+### param "url" - Menu item url
+### param "button" - if "1" activated button style for menu item
+
+main:
+  # Home
+  - title: "Início"
+    url: "/"
+    button: 0
+    
+  # Resume
+  - title: "Sobre"
+    url: "resume/"
+    button: 0
+  
+  # Portfolio
+  #- title: "Portfolio"
+  #  url: "portfolio/"
+  #  button: 0
+  
+  # Blog
+  #- title: "Blog"
+  #  url: "blog/"
+  #  button: 0
+
+  - title: "Redstone para Crias"
+    url: "redstone/"
+    button: 0
+  
+  # Contacts
+  - title: "Contato"
+    url: "contacts/"
+    button: 1

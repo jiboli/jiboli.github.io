@@ -1,0 +1,20 @@
+# Footer configuration file
+##
+### param "social" - Social Links, icon class name you can find here https://ionicons.com/v2/
+### param "copy" - Copyright text
+
+main:
+  social:
+    - title: "Telegram"
+      icon: "paper-airplane"
+      url: "https://t.me/jiboli"
+    - title: "Twitter"
+      icon: "social-twitter"
+      url: "https://twitter.com/ojiboli"
+    - title: "GitHub"
+      icon: "social-github"
+      url: "https://github.com/jiboli"
+    - title: "Instagram"
+      icon: "social-instagram-outline"
+      url: "https://www.instagram.com/jiboli/"
+  copy: "© 2022 Jiboli. All rights reserved."
