@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
+Tão impressionante quanto agradável, resolvida a questão. Descrições apontam para o norte, de modo que a atenção está voltada para a casa. Excelência de forma decisiva, porém o homem ainda tem a impressão marcante de contrastes.

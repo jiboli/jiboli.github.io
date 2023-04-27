@@ -17,4 +17,7 @@ main:
     - title: "Instagram"
       icon: "social-instagram-outline"
       url: "https://www.instagram.com/jiboli/"
-  copy: "© 2022 Jiboli. All rights reserved."
+    - title: "Artstation"
+      icon: "fa-artstation"
+      url: "https://www.artstation.com/jiboli"
+  copy: "© 2023 Jiboli. All rights reserved."

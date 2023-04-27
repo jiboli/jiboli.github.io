@@ -17,10 +17,10 @@ about:
       value: "João"
 
     - label: "Idade"
-      value: ">=26 anos"
+      value: ">=27 anos"
 
     - label: "Profissão"
-      value: "Eterno Estagiário"
+      value: "Burnout"
 
     - label: "Naturalidade"
       value: "🇧🇷"
@@ -30,7 +30,7 @@ about:
 
   download:
     text: "Currículo"
-    link: "https://192.168.2.253:40001/404"
+    link: ""
 
 ### Resume [ resume ]
 resume:
@@ -62,8 +62,8 @@ resume:
         text: "Esse rolê não durou muito, mas fazia o fechamento dos arquivos para uma gráfica. Porém, uma pedra 🪨 literalmente me fez sair de lá para cuidar da saúde. A pedra era no Rim Esquerdo."
 
       - year: "2022"
-        name: "Estagiário - <a href='https://doisgv.com'>DoisGV</a>"
-        text: "Faço posts para redes sociais, atualizo sites, ajudo com podcasts e faço café ☕."
+        name: "---REDACTED---"
+        text: "Por motivos de NDA, o que está aqui, não está mais. (mas é o melhor que posso fazer no github 😉 - fuça aí)."
 
 
   education:
@@ -186,6 +186,10 @@ contacts_info:
     - label: "Address"
       icon: "ios-location"
       value: "Pato Branco, PR, BRA"
+    
+    - label: "Artstation"
+      icon: "fa-artstation"
+      value: "<a href='https://www.artstation.com/jiboli'> Portfolio </a>"
 
 ### Contact Form [ contacts-form ]
 contacts_form:
