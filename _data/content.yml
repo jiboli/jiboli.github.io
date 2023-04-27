@@ -188,7 +188,7 @@ contacts_info:
       value: "Pato Branco, PR, BRA"
     
     - label: "Artstation"
-      icon: "ion-paintbrush"
+      icon: "paintbrush"
       value: "<a href='https://www.artstation.com/jiboli'> Portfolio </a>"
 
 ### Contact Form [ contacts-form ]
