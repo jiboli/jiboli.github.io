@@ -18,6 +18,6 @@ main:
       icon: "social-instagram-outline"
       url: "https://www.instagram.com/jiboli/"
     - title: "Artstation"
-      icon: "fa-artstation"
+      icon: "ion-paintbrush"
       url: "https://www.artstation.com/jiboli"
   copy: "© 2023 Jiboli. All rights reserved."
