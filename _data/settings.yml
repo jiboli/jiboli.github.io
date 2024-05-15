@@ -37,6 +37,6 @@ portfolio:
    #   slug: "f-gallery"
    #   active: 0
 
-   # - name: "Conteúdo"
-   #   slug: "f-content"
-   #   active: 0
+    - name: "Sites"
+      slug: "f-content"
+      active: 0
