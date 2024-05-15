@@ -18,7 +18,7 @@ main:
   
   # Portfolio
   - title: "Portfolio"
-    url: "portfolio/"
+    url: "port/"
     button: 0
   
   # Blog
