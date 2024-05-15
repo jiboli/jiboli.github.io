@@ -17,9 +17,9 @@ main:
     button: 0
   
   # Portfolio
-  #- title: "Portfolio"
-  #  url: "portfolio/"
-  #  button: 0
+  - title: "Portfolio"
+    url: "portfolio/"
+    button: 0
   
   # Blog
   #- title: "Blog"
