@@ -8,7 +8,7 @@ about:
   image: "assets/img/pessoa.jpg"
   text: "
         <p>
-          <strong>Olá! Eu sou o João.</strong><br> Artista de Pato Branco, Brasil. Tenho grande experiência em abandonar cursos de graduação, com especialidade em deixar trabalhos de conclusão -não concluídos-. Segundo minha mãe, todos os meus amigos de infância terminaram a faculdade; mas como ela mesmo diz, não sou todo mundo.
+          <strong>Olá! Eu sou o João.</strong><br> Artista de Pato Branco, Brasil. Tenho grande experiência em abandonar cursos de graduação, com especialidade em deixar trabalhos de conclusão -não concluídos-. Segundo minha mãe, todos os meus amigos de infância terminaram a faculdade; mas como ela mesmo diz, não sou todo mundo. Autista I em terapia.
           
         </p>
         "
@@ -64,6 +64,10 @@ resume:
       - year: "2022"
         name: "---REDACTED---"
         text: "Por motivos de NDA, o que está aqui, não está mais. (mas é o melhor que posso fazer no github 😉 - fuça aí)."
+
+      - year: "2023-20XX"
+        name: "PubliTV"
+        text: "Somente editor, sem cameras e eventos para cobrir, dedico os meus dias a xingar os aplicativos da Adobe, para mais informações. veja portfólio."
 
 
   education:
